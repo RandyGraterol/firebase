@@ -254,8 +254,6 @@ function mostrarOffline(){
   const sDiv = document.getElementById('segundoDiv');
   sDiv.style='display:flex;flex-direction:column;justify-content:center;align-items:center';
   sDiv.innerHTML = '';
-  
-   
     let vector=[];
 /////////////////////////////////////////////////////////////////
     for (let i = 1; i <= localStorage.length -1; i++) {

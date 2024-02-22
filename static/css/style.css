@@ -1,6 +1,6 @@
 @font-face{
     font-family:'fuente';
-    src:url('../fuentes/DS-DIGIT.TTF');
+    src:url('/fuentes/DS-DIGIT.TTF');
   }
   body{
     background:-webkit-radial-gradient(center,circle,rgba(42, 86, 153,.8),rgba(0,0,0,.9));
