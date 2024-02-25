@@ -3,66 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CRUD con Firebase</title>
+  <title>Firebase</title>
 <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
 <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
 
-  <div class="main"> 
+<h1>Tarea</h1>
 
-     <div class="load">R</div>
-     <div class="load">E</div>
-     <div class="load">G</div>
-     <div class="load">I</div>
-     <div class="load">S</div>
-     <div class="load">T</div>
-     <div class="load">R</div>
-     <div class="load">O</div>
 
-  </div>
-
-<div class='divform'>
   
 <form id="studentForm">
-  <div class='divDform'>
-    <label>Nombre</label>
-    <input type="text" id="nameInput" placeholder="Ingrese nombre" required>
-  </div>
 
   <div class='divDform'>
-    <label>Apellido</label>
-    <input type="text" id="lastNameInput" placeholder="Ingrese Apellido" required>
-  </div class='divDform'>
-
-  <div class='divDform'>
-    <label>Email</label>
-    <input type="email" id="emailInput" placeholder="Ingrese Correo" required>
-  </div>
-
-  <div class='divDform'>
-    <label>Cedula</label>
-    <input type="number" id="cedulaInput" placeholder="Ingrese Cedula" required>
+    <label>Tarea</label>
+    <input type="text" id="tarea" placeholder="Ingrese Tarea" required>
   </div>
 
   <div style='display:flex;'>
-    <input type="submit" value="Enviar">
+    <input type="submit" value="Agregar" style='cursor:pointer'>
   </div>
 
 </form>
 
-<div id='imagenes'>
-  <img src="./imagenes/biblioteca-1.jpg">
-  <img src="./imagenes/biblioteca-2.jpg">
-  <img src="./imagenes/biblioteca-3.jpg">
-</div>
 
-</div>
 
-<h2>Lista de Estudiantes</h2>
-<div id="studentList" style='border:1px solid white'></div>
-<div id="segundoDiv" style='border:1px solid white'></div>
+<h2>Lista de Tareas</h2>
+
+<div id="studentList"></div>
 
 <script type="text/javascript" src='/js/script.js'></script>
 </body>

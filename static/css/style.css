@@ -3,7 +3,7 @@
     src:url('/fuentes/DS-DIGIT.TTF');
   }
   body{
-    background:-webkit-radial-gradient(center,circle,rgba(42, 86, 153,.8),rgba(0,0,0,.9));
+    background:-webkit-radial-gradient(center,circle,rgba(138, 244, 200,.9),rgba(0,0,0,.9));
   }
   .column{
     display:flex;
@@ -21,9 +21,8 @@
     width:90%;
     border:1px solid white;
     margin:1rem 2rem;
-    overflow-x:scroll;
     padding:1rem;
-    background:rgba(103, 212, 229,.4);
+    background:rgb(154, 231, 152);
   }
   input{
     text-align: center;
@@ -31,13 +30,14 @@
   }
   #studentForm{
     display:flex;
-    flex-direction: column;
     justify-content: center;
     align-items:center;
     border:1px solid white;
-    width:30%;
+    width:90%;
     height: auto;
     color:white;
+    margin:1rem auto;
+    background:rgb(154, 231, 152);
   }
   #imagenes img{
     width:30%;
@@ -50,25 +50,21 @@
     width:84%;
     margin-left: .5rem;
   }
-  .divform{
+  .divDform{
     display:flex;
     justify-content: center;
     align-items: center;
     border:1px solid white;
-    padding:.5rem;
-    background:rgba(0,0,0,.9);
+    padding:.2rem;  
+    width:90%;
   }
-  h2{
+  h1,h2{
     display: flex;
     justify-content: center;
-    margin:5rem auto;
-    font:2rem 'fuente';
-    width:30%;
-    transform: translateY(10px);
+    color:white;
+    font:2rem 'fuente'; 
   }
-  #studentList{
-    background:rgba(0,0,0,.9);
-  }
+  
   /*eFECTO*/
   .main{
          display:flex;/*?????*/
@@ -141,7 +137,7 @@
             align-items: center;
           }
           label{
-            font:2rem 'fuente';
+            font:1.5rem 'fuente';
           }
           input{
             border-radius: 10px;
